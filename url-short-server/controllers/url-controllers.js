@@ -37,6 +37,7 @@ const createShortUrl = async (req, res) => {
   }
 };
 
+//get original url
 const retrieveUrl = async (req, res) => {
   const { shortCode } = req.params;
 
