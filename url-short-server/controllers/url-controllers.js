@@ -2,6 +2,7 @@ const Url = require("../models/url");
 const { nanoid } = require("nanoid");
 const validator = require("validator");
 
+//create short url route
 const createShortUrl = async (req, res) => {
   console.log(req.body);
   const { url } = req.body;
