@@ -99,7 +99,7 @@ const updateUrl = async (req, res) => {
   }
 };
 
-
+//delete url
 const deleteUrl = async (req, res) => {
   const { shortCode } = req.params;
 
