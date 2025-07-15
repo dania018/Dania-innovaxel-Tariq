@@ -116,7 +116,7 @@ const deleteUrl = async (req, res) => {
   }
 };
 
-
+//get access count of url
 const getUrlStats = async (req, res) => {
   const { shortCode } = req.params;
 
