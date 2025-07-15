@@ -50,6 +50,7 @@ function App() {
         </div>
       )}
 
+       {/* retrieve and redirect ui  */}
       <h1>Retrieve And Redirect</h1>
       <input type="text"
       value={shortCode}
