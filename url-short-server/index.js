@@ -23,6 +23,8 @@ app.use('/' , urlRoutes)
 app.all("*" , (req , res) => {
   res.status(404).json({error : "Route not found"})
 })
+
+//database connection setup 
 const connectDB = async () => {
   try {
     await mongoose.connect(uri);
