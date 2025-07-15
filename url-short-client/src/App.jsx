@@ -2,6 +2,7 @@ import React from "react";
 import axios from "axios";
 import { useState } from "react";
 
+//setup Frontend
 function App() {
   const [longUrl, setLongUrl] = useState("");
   const [shortCode, setShortCode] = useState("");
