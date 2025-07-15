@@ -11,7 +11,7 @@ const createShortUrl = async (req, res) => {
     return res.status(400).json({ error: "url required" });
   }
 
-  //validation
+  //validation for url
   if (!validator.isURL(url)) {
     return res.status(400).json({ error: "invalid url" });
   }
