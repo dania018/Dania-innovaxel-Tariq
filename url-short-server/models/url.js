@@ -1,5 +1,6 @@
 const mongoose = require("mongoose");
 
+//Model schema setup
 const urlSchema = new mongoose.Schema(
   {
     url: {
