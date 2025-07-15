@@ -20,6 +20,7 @@ app.use(express.urlencoded({ extended: true }));
 
 app.use('/' , urlRoutes)
 
+//catch-all route to handle undefined endpoints
 app.all("*" , (req , res) => {
   res.status(404).json({error : "Route not found"})
 })
