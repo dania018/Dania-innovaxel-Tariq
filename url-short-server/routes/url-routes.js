@@ -9,6 +9,7 @@ const {
   getUrlStats,
 } = require("../controllers/url-controllers");
 
+//define routes for url
 router.post("/shorten", createShortUrl);
 router.get("/shorten/:shortCode", retrieveUrl);
 router.put("/shorten/:shortCode", updateUrl);
